@@ -1,0 +1,24 @@
+{
+  "name": "slush-varke",
+  "version": "0.0.1",
+  "description": "generator for simple module.",
+  "main": "slushfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slushgenerator"
+  ],
+  "author": "wuake",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-conflict": "^0.3.0",
+    "gulp-install": "^0.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^2.1.0",
+    "iniparser": "^1.0.5",
+    "inquirer": "^0.8.0",
+    "moment": "^2.9.0"
+  }
+}
