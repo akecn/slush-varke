@@ -1,4 +1,4 @@
-## Varke generator
+## Generator varke 
 
 a simple nodejs module generator for myself.
 

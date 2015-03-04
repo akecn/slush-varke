@@ -16,9 +16,9 @@ chai.should();
 var <%= app %> = require('../lib/<%= app %>.js');
 
 describe('<%= app %> module', function(){
-  describe('#awesome()', function(){
-    it('should return a hello', function(){
-      <%= app %>.awesome('varke').should.equal("hello varke");
+    describe('#awesome()', function(){
+        it('should return a hello', function(){
+            <%= app %>.awesome('varke').should.equal("hello varke");
+        });
     });
-  });
 });

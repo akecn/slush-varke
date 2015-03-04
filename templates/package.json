@@ -2,7 +2,7 @@
     "name": "<%= app %>",
     "version": "<%= version %>",
     "description": "<%= description %>",
-    "main": "<%= app %>.js",
+    "main": "lib/<%= app %>.js",
     "author": {
         "name": "<%= author %>",
         "email": "<%= email %>"
@@ -21,10 +21,6 @@
             "url": "https://github.com/<%= githubName %>/<%= app %>/blob/master/LICENSE"
         }
     ],
-    "engines": {
-        "node": ">= 0.11.0",
-        "npm": ">=1.4.3"
-    },
     "scripts": {
         "test": "gulp test"
     },

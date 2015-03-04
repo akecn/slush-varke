@@ -3,3 +3,6 @@ node_modules
 bower_components/
 .idea
 .local
+*.log
+bak/
+temp/

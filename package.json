@@ -1,6 +1,6 @@
 {
   "name": "slush-varke",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generator for simple module.",
   "main": "slushfile.js",
   "scripts": {
