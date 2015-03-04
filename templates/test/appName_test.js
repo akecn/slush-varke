@@ -1,13 +1,12 @@
 /*global describe:true, it:true*/
+'use strict';
 /*
  * <%= app %>
  * https://github.com/<%= githubName %>/<%= app %>
  *
- * Copyright (c) 2014 <%= author %>
+ * Copyright (c) <%= year %> <%= author %>
  * Licensed under the <%= license %> license.
  */
-
-'use strict';
 
 var chai = require('chai');
 chai.expect();

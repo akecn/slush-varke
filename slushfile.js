@@ -15,7 +15,6 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     iniparser = require('iniparser'),
     inquirer = require('inquirer'),
-    moment = require('moment'),
     fs = require('fs'),
     path = require('path');
 
@@ -89,10 +88,13 @@ gulp.task('default', function(done) {
 
             var files = [__dirname + '/templates/**'];
 
-            if (answers.license === 'MIT') {
-                files.push('!' + __dirname + '/templates/LICENSE_BSD');
-            } else {
-                files.push('!' + __dirname + '/templates/LICENSE_MIT');
+            switch(answers.license) {
+                case 'MIT':
+                    files.push('!' + __dirname + '/templates/LICENSE_BSD');
+                    break;
+                case "BSD":
+                    files.push('!' + __dirname + '/templates/LICENSE_MIT');
+                    break;
             }
 
             gulp.src(files)
@@ -101,12 +103,8 @@ gulp.task('default', function(done) {
 
                     file.basename = file.basename.replace(new RegExp('appName', 'g'), answers.app);
 
-                    if (answers.license === 'MIT') {
-                        var mit = file.basename.replace('LICENSE_MIT', 'LICENSE');
-                        file.basename = mit;
-                    } else {
-                        var bsd = file.basename.replace('LICENSE_BSD', 'LICENSE');
-                        file.basename = bsd;
+                    if(file.basename.indexOf('LICENSE_') === 0) {
+                        file.basename = file.basename.replace("_" + answers.license, "");
                     }
 
                     if (file.basename[0] === '_') {

@@ -15,12 +15,7 @@
     "bugs": {
         "url": "https://github.com/<%= githubName %>/<%= app %>/issues"
     },
-    "licenses": [
-        {
-            "type": "<%= license %>",
-            "url": "https://github.com/<%= githubName %>/<%= app %>/blob/master/LICENSE"
-        }
-    ],
+    "licenses": "<%= license %>",
     "scripts": {
         "test": "gulp test"
     },

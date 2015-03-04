@@ -1,13 +1,12 @@
+'use strict';
 /**
  * <%= app %>
  * @file <%= description %>
  * https://github.com/<%= githubName %>/<%= app %>
  *
- * Copyright (c) 2014 <%= author %>
+ * Copyright (c) <%= year %> <%= author %>
  * Licensed under the <%= license %> license.
  */
-
-'use strict';
 
 /**
  * Method responsible for say Hello
