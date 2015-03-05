@@ -8,27 +8,30 @@
   },
   "homepage": "https://github.com/akecn/slush-varke",
   "repository": {
-      "type": "git",
-      "url": "git://github.com/akecn/slush-varke.git"
+    "type": "git",
+    "url": "git://github.com/akecn/slush-varke.git"
   },
   "bugs": {
-      "url": "https://github.com/akecn/slush-varke/issues"
+    "url": "https://github.com/akecn/slush-varke/issues"
   },
   "keywords": [
     "slushgenerator"
   ],
   "author": {
-      "name": "wuake",
-      "email": "wgk1987@gmail.com"
+    "name": "wuake",
+    "email": "wgk1987@gmail.com"
   },
   "license": "MIT",
   "dependencies": {
+    "findup-sync": "^0.2.1",
     "gulp": "^3.8.10",
     "gulp-conflict": "^0.3.0",
     "gulp-install": "^0.2.0",
     "gulp-rename": "^1.2.0",
     "gulp-template": "^2.1.0",
     "iniparser": "^1.0.5",
-    "inquirer": "^0.8.0"
+    "inquirer": "^0.8.0",
+    "optimist": "^0.6.1",
+    "semver": "^4.3.1"
   }
 }

@@ -1,32 +1,32 @@
 {
-    "name": "<%= app %>",
-    "version": "<%= version %>",
-    "description": "<%= description %>",
-    "main": "lib/<%= app %>.js",
-    "author": {
-        "name": "<%= author %>",
-        "email": "<%= email %>"
-    },
-    "homepage": "https://github.com/<%= githubName %>/<%= app %>",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/<%= githubName %>/<%= app %>.git"
-    },
-    "bugs": {
-        "url": "https://github.com/<%= githubName %>/<%= app %>/issues"
-    },
-    "licenses": "<%= license %>",
-    "scripts": {
-        "test": "gulp test"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "chai": "^1.10.0",
-        "gulp": "^3.8.10",
-        "gulp-jshint": "^1.9.2",
-        "gulp-mocha": "^2.0.0",
-        "jshint-stylish": "^1.0.0",
-        "mocha": "^2.1.0"
-    },
-    "keywords": []
+  "name": "<%= app %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "main": "lib/<%= app %>.js",
+  "author": {
+    "name": "<%= author %>",
+    "email": "<%= email %>"
+  },
+  "homepage": "https://github.com/<%= githubName %>/<%= app %>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= githubName %>/<%= app %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= githubName %>/<%= app %>/issues"
+  },
+  "licenses": "<%= license %>",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.2",
+    "gulp-mocha": "^2.0.0",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0"
+  },
+  "keywords": []
 }
