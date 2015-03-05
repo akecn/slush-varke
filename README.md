@@ -1,6 +1,5 @@
-# Generator varke 
 
-a simple nodejs module generator for myself.
+a simple npm module slush generator.
 
 [Slush](http://slushjs.github.io/) is the streaming scaffolding system - Gulp as a replacement for Yeoman.
 

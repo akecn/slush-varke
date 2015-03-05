@@ -1,7 +1,7 @@
 {
   "name": "slush-varke",
   "version": "0.0.3",
-  "description": "generator for simple module.",
+  "description": "slush generator for npm module.",
   "main": "slushfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
